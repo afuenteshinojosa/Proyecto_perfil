@@ -1,0 +1,227 @@
+body{
+    font-family: 'Kalam', cursive;
+}
+.todo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    height: 60px;
+}
+.nav-title{
+    color:white;
+    margin-left: 30px;
+    margin-right: auto;
+}
+.active{
+    color: white
+}
+.nav-links{ 
+    display:flex;
+    list-style: none;
+}
+a{ 
+    color: rgb(210, 210, 210);
+    text-decoration: none;
+}
+li{ 
+    padding: 5px 5px;
+}  
+.boton{
+    margin-left: auto;
+    margin-right: 10px;
+    /*position: relative;
+    margin-left: 80px;
+    text-align: right;*/
+}
+.btn{
+    background-color: rgba(34, 148, 148, 0.998);
+    color:white;
+
+    /*border: 5px solid black;
+    padding: 2px;*/
+
+}
+/*----------------------------------------*/
+.tarjetas{
+    display:inline-flex;
+    margin: 10px 30px 30px;
+}
+.imagenUsuario{
+    width: 80px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    border:2px solid rgb(163, 163, 163);
+    border-radius: 50%;
+    padding: 0px; 
+
+}
+.tarjetaUsuario{
+    margin: 10px 0px 10px;
+    width: 400px;
+    border: 2px solid rgba(160, 160, 160);
+}
+
+header{
+    background-color: rgb(19, 178, 178);
+    position: relative;
+    height: 80px;
+}
+main{
+    padding: 10px;
+}
+.nombreUsuario{
+    margin-top: 35px;
+}
+.clasificacion{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+.ciudad{
+    margin-top: 40px;
+    margin-bottom: 20x;
+}
+
+.ubicacion, .edicion{
+    float: left;
+    margin-right: 10px;
+    display: flex;
+}
+.icono{
+    width: 15px;
+}
+/*------------------------------------------*/
+
+.education{
+    background-color: rgb(53, 53, 53);
+    padding: 10px;
+    color:white;
+    margin-top: 0px;
+}
+.infoEducacion{
+    margin: 10px 10px 10px;
+}
+.codingDojo{
+    font-size: 20px;
+}
+.fecha{
+    margin-bottom: 5px;
+    color: rgb(115, 115, 115);
+}
+/*----------------------------------------*/
+/*.segundaSeccion{
+    justify-content: flex-end;
+    vertical-align: middle;
+}*/
+.tarjetaUsuario{
+    width: 400px;
+    border: 2px solid rgba(160, 160, 160);
+}
+
+.education{
+    background-color: rgb(53, 53, 53);
+    padding: 10px;
+    color:white;
+    margin-top: 0px;
+}
+.infoEducacion{
+    margin: 0px 10px 15px;
+}
+.codingDojo{
+    font-size: 20px;
+}
+.fecha{
+    margin-bottom: 5px;
+    color: rgb(115, 115, 115);
+}
+
+.tarjetaconexiones{
+    margin: 10px 10px 10px;
+    width: 220px;
+    border: 2px solid rgba(160, 160, 160);
+
+}
+.barra{
+    background-color: rgb(53, 53, 53);
+    padding: 10px;
+    position: relative;
+}
+.conectionRequests{ 
+    padding: 0px;
+    color:white;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+.dos{
+    color:white;    
+    background-color:rgb(163, 163, 163);
+    border:2px solid rgb(163, 163, 163);
+    position: absolute; 
+    width: 20px;
+    border-radius: 50%;
+    padding: px; 
+    text-align: center; 
+    font-size: small;
+    margin-inline-start: 5px;
+}
+.yourConections{ 
+    padding: 0px;
+    color:white;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+.requests{
+    color:white;
+    position: absolute; 
+    width: 35px;
+    border:2px solid rgb(163, 163, 163);
+    border-radius: 50%;
+    padding: 1px; 
+    text-align: center; 
+    background-color:rgb(163, 163, 163);
+    font-size: small;
+}
+.textoConexiones{
+    margin-left: 5px;
+    text-align: justify;
+}
+.perfilconexiones{
+    float: left;
+    width: 30px;
+    margin-right: 10px;
+    border:1px solid rgb(163, 163, 163);
+    border-radius: 50%;
+
+}
+.verMas{
+    width: 220px;
+    border-top: 2px solid rgba(160, 160, 160);
+}
+#link {
+    color:blue;
+    text-decoration:underline
+}
+.cancelar{
+    margin-left: auto;
+    float: right;
+    width: 25px;
+    margin-right: 10px;
+    border:1px solid rgb(163, 163, 163);
+    border-radius: 50%;
+}
+.aceptar{
+    margin-left: auto;
+    float: right;
+    width: 25px;
+    margin-right: 3px;
+    border:1px solid rgb(163, 163, 163);
+    border-radius: 50%;
+}
